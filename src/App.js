@@ -12,6 +12,7 @@ function App() {
       <Navebar/>
       <Home/>
       <SocialLinks/>
+
       <About/>
       <Portfolio/>
       <Skills/>

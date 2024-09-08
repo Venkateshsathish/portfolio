@@ -30,13 +30,13 @@ const Navebar = () => {
     ]
 
   return (
-    <div className='flex justify-between items-center  bg-black w-full h-20 text-white fixed px-4' >
+    <div className='flex justify-between items-center  bg-black w-full h-20 text-white fixed px-4'>
         <div >
-      <h1 className='text-5xl font-signature'>Venkatesh</h1>
+      <h1 className='text-5xl font-signature ml-2'>Venkatesh</h1>
       </div> 
       <ul className=' hidden md:flex'>
         {links.map(({id,link})=>(
-                <li key={id} className='px-5 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200'>
+                <li key={id} className='px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200'>
                 <Link to={link} smooth duration={500}>
                     {link}</Link></li>
             ))} 
